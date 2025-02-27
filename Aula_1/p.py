@@ -4,7 +4,7 @@ import threading
 
 def tarefa ():
     print('iniciando...')
-    time.sleep(3)
+    time.sleep(9)
     print('fim...')
 
 t= threading.Thread(target=tarefa)
