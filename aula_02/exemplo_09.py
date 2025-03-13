@@ -10,7 +10,7 @@ lock = threading.Lock()
 # Função para a thread de alta prioridade
 def altaPrioridade():
     global contadoralta
-    for _ in range(10):  # Limitar o número de iterações
+    for _ in range(1):  # Limitar o número de iterações
         with lock:
             print("[alta prioridade] usando recurso")
             contadoralta += 1
